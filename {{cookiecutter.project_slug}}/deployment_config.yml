@@ -12,10 +12,10 @@ spec:
   service:
     - name: "{{cookiecutter.project_slug.replace('_', '-')}}"
       host: "{{cookiecutter.url_prefix}}.{env}.oceandata.xyz"
-      port: 80
+      port: 8501
       image:
         name: "oceandata.azurecr.io/{{cookiecutter.project_slug}}"
-        tag: {image_tag}
+        tag: { image_tag }
       resources:
         cpu: 100m
         memory: 64Mi
