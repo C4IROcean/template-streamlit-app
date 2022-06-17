@@ -47,7 +47,7 @@ Alternatively, you can run the app using the poetry shell:
 
 ```sh
 $ poetry shell
-$ python -m odp.app.{{cookiecutter.app.project_slug}}
+$ python -m odp.app.{{cookiecutter.project_slug}}
 ```
 
 The app will be available at http://localhost:8501
