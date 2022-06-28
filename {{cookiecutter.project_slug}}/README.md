@@ -70,7 +70,7 @@ then you may have to update this file.
 In order to build the Dockerfile, simply run the following command:
 
 ```shell
-$ docker build --rm -t oceandata.azurecr.io/{{cookiecutter.project_slug}}:{{cookiecutter.version}}
+$ docker build --rm -t oceandata.azurecr.io/{{cookiecutter.project_slug}}:{{cookiecutter.version}} .
 ```
 
 The container image can then be run locally using the following command:
